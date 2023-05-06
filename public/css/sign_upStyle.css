@@ -1,0 +1,439 @@
+/* Start non-class */
+:root{
+  --main-color:#1f232a;
+  --primary-color: #ce962e;
+  --black:#222;
+  --white:#fff;
+  --bg: #f2f2f2;
+  --light-black:#666;
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    /* font-family: 'Poppins', sans-serif; */
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+  }
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+a{
+  text-decoration: none;
+}  
+/* End non-class */
+
+.sign-up-two {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 0 0 568px;
+    position: relative;
+  }
+
+  .background {
+    background: linear-gradient(
+        rgba(217, 217, 217, 0.85),
+        rgba(217, 217, 217, 0.85)
+      ),
+      url("https://static.overlay-tech.com/assets/7e0d9f83-f9ec-46f4-b564-f6c0ce65fbd9.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 147px 102px 498px 200px;
+    position: relative;
+  }
+
+  .rectangle-27 {
+    width: 570px;
+    height: 396px;
+    position: relative;
+  }
+
+  .design-your-dream-space-with-our-expert {
+    height: 159px;
+    width: 635px;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: normal;
+    color: rgba(41, 50, 66, 1);
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 168px;
+    bottom: 359px;
+    letter-spacing: 2.7px;
+  }
+
+  .sign {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px 67px 67px 0px;
+    height: 100%;
+    padding: 161px 65px 160px 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .login {
+    margin-bottom: 77px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .signup {
+    font-family: "Nunito Sans";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.78px;
+  }
+
+  .join-us-and-enjoy-exclusive-benefits {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(41, 50, 66, 0.78);
+    text-align: center;
+    letter-spacing: 2.64px;
+  }
+
+  /* Start Textfield */
+  .texfield-fullname, .texfield-email {
+    margin-bottom: 37px;
+    padding: 8px 0 0;
+    position: relative;
+  }
+  .rectangle-28 {
+    width: 526px;
+    height: 75px;
+    background-color: rgba(217, 217, 217, 0);
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+
+  .rectangle-28 {
+    font-size: 16px; /* Change this to the default font size */
+    text-indent: 2%;
+  }
+
+  .rectangle-28:focus {
+    font-size: 20px; /* Change this to the desired font size when the input is focused */
+    text-indent: 2%;
+  }
+
+  .rectangle-28::placeholder {
+    text-indent: 2%;
+  }
+
+  .flex-wrapper-two {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 10px 0 9px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 26px;
+    top: 0;
+  }
+  .full-name {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(41, 50, 66, 1);
+    text-align: center;
+    letter-spacing: 6px;
+  }
+  .flex-wrapper-one {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 32px;
+    top: 0;
+  }
+  .texfield-pass {
+    margin-bottom: 10px;
+    padding: 8px 0 0;
+    position: relative;
+  }
+  .flex-wrapper-three {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 10px 0 9px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 28px;
+    top: 0;
+  }
+  /* End Textfield */
+
+  .keep-me {
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .material-symbolscheck-box {
+    margin-right: 7px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .i-agree-to-the-terms-of-service-and-priv {
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+  }
+  .i-agree-to-the-terms-of-service-and-priv-emphasis-0 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(41, 50, 66, 0.78);
+    letter-spacing: 1.52px;
+  }
+
+  /* Start Button Sign Up */
+  .signup-bar {
+    background-color: rgba(145, 104, 72, 1);
+    margin-bottom: 13px;
+    border-radius: 15px;
+    padding: 22px 213px 23px;
+    display: flex;
+    align-items: center;
+  }
+
+  .signup-bar:hover {
+    background-color: #FFA500; /* Change this to the desired hover color */
+  }
+  /* End Button Sign Up */
+
+  /* Start Check Member */
+  .check {
+    margin-bottom: 69px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .already-member {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(41, 50, 66, 0.78);
+    text-align: center;
+    margin-right: 8px;
+    letter-spacing: 2.64px;
+  }
+  .log-in {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    text-align: center;
+    letter-spacing: 2.64px;
+  }
+  .out {
+    margin-left: 5px;
+    padding: 0 126px 0 125px;
+    position: relative;
+  }
+  .line-1 {
+    width: 530px;
+    height: 1px;
+    background-color: rgba(145, 104, 72, 1);
+    position: absolute;
+    left: 0;
+    top: 11px;
+  }
+  .flex-wrapper-four {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 12px;
+    position: relative;
+  }
+  /* End Check Member */
+
+  /* Start Company */
+  .pass {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(41, 50, 66, 0.78);
+    text-align: center;
+    letter-spacing: 6px;
+  }
+  /* End Company */
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+  .sign-up-two {
+    padding: 0;
+  }
+
+  .background {
+    display: none;
+  }
+
+  .rectangle-27 {
+    width: 100%;
+    height: auto;
+  }
+
+  .design-your-dream-space-with-our-expert {
+    width: 100%;
+    font-size: 16px;
+    left: 0;
+    bottom: 290px;
+    letter-spacing: 1.2px;
+  }
+
+  .sign {
+    padding: 80px 20px 80px 20px;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+  }
+
+  .signup {
+    font-size: 24px;
+    letter-spacing: 1.8px;
+  }
+
+  .join-us-and-enjoy-exclusive-benefits {
+    font-size: 14px;
+    letter-spacing: 1.2px;
+  }
+
+  .texfield-fullname,
+  .texfield-email,
+  .texfield-pass {
+    width: 100%;
+  }
+
+  .rectangle-28 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .full-name {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+}
+
+/* 450px */
+@media (max-width: 450px) {
+    .sign-up-two {
+      padding: 0;
+      width: 100%;
+    }
+
+    .background {
+      padding: 147px 20px 498px 20px;
+    }
+
+    .rectangle-27 {
+      width: 100%;
+      height: 300px;
+    }
+
+    .design-your-dream-space-with-our-expert {
+      width: 100%;
+      font-size: 18px;
+      letter-spacing: 1.5px;
+      left: 0;
+      bottom: 270px;
+    }
+
+    .sign {
+      padding: 50px 20px;
+      border-radius: 0;
+      position: static;
+      height: auto;
+      align-items: center;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+    
+    .signup {
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+
+    .join-us-and-enjoy-exclusive-benefits {
+      font-size: 14px;
+      letter-spacing: 1.5px;
+    }
+
+    .texfield-fullname, .texfield-email, .texfield-pass {
+      margin-bottom: 20px;
+    }
+
+    .rectangle-28 {
+      width: 100%;
+      height: 60px;
+      font-size: 14px;
+      border-radius: 10px;
+    }
+
+    .flex-wrapper-one,
+    .flex-wrapper-two,
+    .flex-wrapper-three {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .full-name {
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+  }
+/* 450px */
